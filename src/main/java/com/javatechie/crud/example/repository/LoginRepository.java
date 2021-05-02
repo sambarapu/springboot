@@ -10,6 +10,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface LoginRepository extends JpaRepository<User,Integer> {
 
+    // connecting to SQL Database to fetch user request
     @Query(value = "SELECT * FROM User WHERE name = ?1", nativeQuery = true)
     User findUserByName(String user);
 
