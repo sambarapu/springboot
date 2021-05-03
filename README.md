@@ -1,5 +1,6 @@
 # springboot
 
-This is a project based on spring boot, JPA, Hibernate with SQL Database 
+This is a Java project with JVM - 8, based on spring boot.
+Which includes JPA, Hibernate with SQL Database. 
 
-updating new steps
+updating new steps 
